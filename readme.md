@@ -37,7 +37,7 @@ charged ethers are distrubuted to others who abide by the rules. (n in formula i
     - If the host initiates a rescheduled vote on dc channel over 24 hours before discussion, then 50% penalty for that time can be reduced. If any host's total reschedulement over 2 times(including 2 times), then all remissions are cancelled.
     - If the one not the host asks for absence over 24 hours before discussion, then 30% penalty for that time can be reduced. If any member's total reschedulement over 3 times(including 3 times, not included when he/she is host), then all remissions are cancelled.
     <br>
-- Group Leader are not incentivised if penalty ethers > staked ethers * 20%, otherwise can get 1/2 * penalty ethers * 100 * (penalty ethers / staked ethers - 20%)^2. 
+- Group Leader are not incentivised if penalty ethers > staked ethers * 20%, otherwise can get 1/2 * penalty ethers * (penalty ethers / staked ethers / 20% - 1)^2. 
 
 ## 4. Learning Path
 
